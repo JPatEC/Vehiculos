@@ -1,0 +1,85 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrar Vehiculo "
+        android:layout_gravity=""
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/placa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese Placa"
+        android:maxLines="1"
+        android:singleLine="true" />
+    <EditText
+        android:id="@+id/marca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese Marca"
+        android:maxLines="1"
+        android:singleLine="true" />
+    <EditText
+        android:id="@+id/fecFab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha Fabricacion"
+        android:maxLines="1"
+        android:singleLine="true" />
+    <EditText
+        android:id="@+id/Costo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Costo Vehiculo"
+        android:maxLines="1"
+        android:singleLine="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Matriculado Vehiculo "
+        android:layout_gravity=""
+        android:textSize="15sp"
+        android:padding="10dp"/>
+    <CheckBox
+        android:id="@+id/Matriculado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Color Vehiculo "
+        android:layout_gravity=""
+        android:textSize="15sp"
+        android:padding="10dp"/>
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/registrar"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:onClick="IngresarV"
+        android:text="Registrar"
+        android:layout_weight="1"
+        android:textStyle="bold" />
+    <Button
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Limpiar"
+        android:layout_weight="1"
+        android:id="@+id/limpiar"/>
+
+</LinearLayout>
